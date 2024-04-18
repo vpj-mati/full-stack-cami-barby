@@ -1,0 +1,12 @@
+Este es un archivo para comenzar a validar problemas de conflictos en GIT.
+
+
+Dejo unos espacios para hacer pruebas
+
+
+
+
+
+
+
+Aqui hay más texto.
