@@ -1,4 +1,4 @@
-Este es un archivo para comenzar a validar problemas de conflictos en GIT.
+Primeo escribo yo(MATIS) Este es un archivo para comenzar a validar problemas de conflictos en GIT.
 
 
 Dejo unos espacios para hacer pruebas
