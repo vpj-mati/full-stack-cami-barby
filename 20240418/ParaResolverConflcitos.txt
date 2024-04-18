@@ -1,4 +1,4 @@
-Este es un archivo para comenzar a validar problemas de conflictos en GIT.
+Este es un archivo para comenzar a VALIDAR (BARBY) problemas de conflictos en GIT.
 
 
 Dejo unos espacios para hacer pruebas
