@@ -1,5 +1,4 @@
-Este es un archivo para comenzar a validar problemas de conflictos en GIT.
-
+Este es un ejemplo (CAMI) para comenzar a validar problemas de conflictos en GIT.
 
 Dejo unos espacios para hacer pruebas
 
