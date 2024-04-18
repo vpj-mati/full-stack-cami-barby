@@ -1,7 +1,7 @@
 Primero escribo yo(MATIS) Este es un ejemplo (CAMI) para comenzar a VALIDAR (BARBY) problemas de conflictos en GIT.
 
 
-Dejo unos espacios para hacer pruebas
+Ahora yo dejo unos espacios para hacer pruebas
 
 
 
