@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos - Formulario</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+        body {
+            font-family: "Inter";
+
+            /* Body */
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 24px;
+            gap: 16px;
+            background-color: #70B2FF;
+
+
+        }
+
+        .card {
+
+
+            /* Card */
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+            gap: 20px;
+
+
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+            border-radius: 24px;
+
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+
+        .imput-group {
+            /* Input-Text */
+
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 2px;
+
+
+        }
+
+        label {
+            /* Label */
+
+
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+
+
+            color: #000000;
+
+
+
+
+        }
+
+        .imput-textx {
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: 2px solid #A2A2A2;
+            border-radius: 4px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+
+
+
+        }
+
+        #btn-enviar {
+
+
+
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: 2px solid #7285E6;
+            border-radius: 8px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            color: #000000;
+            padding-left: 43px;
+            padding-right: 43px;
+
+        }
+
+        #btn-enviar:hover {
+            border-color: #000000;
+            color: #919191;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Elemntos de Formularios</h1>
+
+    <form class="card" action="">
+        <div class="imput-group">
+            <label for=""> Nombre</label>
+            <input class="imput-textx" type="text" name="" id="" placeholder="Ej:Cami">
+        </div>
+
+
+        <div class="imput-group">
+            <label for=""> Fecha de Nacimiento</label>
+            <input class="imput-textx" type="date" name="" id="">
+        </div>
+
+
+        <div class="imput-group">
+            <label for=""> Correo</label>
+            <input class="imput-textx" type="email" name="" id="">
+        </div>
+
+
+        <div class="imput-group">
+            <label for="">Contraseña</label>
+            <input class="imput-textx" type="password" name="" id="">
+        </div>
+
+
+        <div>
+            <label for="">Hombre</label>
+            <input type="radio" name="opciones" id="opcion1">
+
+            <label for="">Mujer</label>
+            <input type="radio" name="opciones" id="opcion2">
+        </div>
+
+        <div class="imput-group">
+            <label for="">Cuentanos Sobre ti </label>
+            <textarea class="imput-textx" name="" id=""></textarea>
+        </div>
+
+
+        <input id="btn-enviar" type="submit" value="ENVIAR">
+
+
+
+    </form>
+
+
+</body>
+
+</html>
