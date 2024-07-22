@@ -7,6 +7,18 @@
     <title>Document</title>
 
     <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-size: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         .container {
             height: 100%;
 
@@ -19,24 +31,29 @@
 
 
         .location {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.3);
             color: #fff;
             display: inline-block;
             padding: 5px 10px;
             border-radius: 5px;
-            margin-top: 10px;
+            position: fixed;
+            height: 70px;
+            width: 300px;
+            bottom:150px ;
+            left: 20px;
         }
 
         .user-data {
             margin-top: 10px;
             text-align: left;
             color: #555;
-            font-size: 14px; 
+            font-size: 14px;
         }
 
         .user-data .username {
             font-weight: bold;
         }
+
         .user-data .date {
             color: #999;
         }
@@ -45,7 +62,7 @@
             margin-top: 20px;
             padding: 10px;
             background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             font-size: 16px;
             color: #333;
