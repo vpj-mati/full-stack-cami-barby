@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+body{ 
+      font-size: 100%;
+      font-family: Arial, sans-serif;
+}
+
+
         .container {
             height: 100vh;
             width: 600px;
@@ -16,14 +28,16 @@
         }
 
         .location {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            background-color: rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
+            position: fixed;
+            height: 70px;
+            width: 300px;
+             bottom: 150px;    
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
             color: #fff;
-            font-family: Arial, sans-serif;
             font-size: 12px;
+            
         }
 
         .user-data {
@@ -31,7 +45,7 @@
             position: absolute;
             bottom: 10px;
             left: 10px;
-            
+
         }
     </style>
 
