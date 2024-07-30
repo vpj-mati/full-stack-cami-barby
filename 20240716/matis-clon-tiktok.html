@@ -7,19 +7,54 @@
     <title>Document</title>
 
     <style>
-        
-        .container{
-            height: 100%;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-size: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
         }
 
         video {
-            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            z-index: -1;
         }
 
 
+        .location {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: rgba(255, 255, 255, 1);
+            border-radius: 5px;
+            padding: 5px 10px;
+            position: fixed;
+            height: 70px;
+            width: 300px;
+            bottom: 150px;
+            left: 20px;
+        }
 
-
-
+        .side-buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 30px;
+            position: fixed;
+            right: 25px;
+            bottom: 100px;
+        }
     </style>
 
 
@@ -37,8 +72,8 @@
             </div>
         </div>
 
-        <video src="assets-matis/video.mp4" autoplay controls></video>
-    
+        <video src="assets-matis/video.mp4"></video>
+
         <div class="side-buttons">
             <button>1</button>
             <button>2</button>
@@ -53,7 +88,7 @@
             <p class="name-location">Tasikmalay</p>
             <p class="description">279.4K personas publicaron sobre es...</p>
         </div>
-        
+
         <div class="user-data">
             <p class="user-name">Dafire</p>
             <p class="user-date">. 2023-05-23</p>
@@ -66,8 +101,8 @@
                 <span class="next-idea"></span>
             </button>
         </div>
-    </div>
 
+    </div>
 
 </body>
 
