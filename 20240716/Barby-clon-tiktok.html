@@ -12,32 +12,40 @@
             box-sizing: border-box;
             text-decoration: none;
         }
-body{ 
-      font-size: 100%;
-      font-family: Arial, sans-serif;
-}
+
+        body {
+            font-size: 100%;
+            font-family: Arial, sans-serif;
+        }
 
 
         .container {
             height: 100vh;
-            width: 600px;
+            width: 100vw;
         }
 
         video {
-            height: 100%;
+            
+            position: fixed;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+
         }
 
         .location {
             position: fixed;
             height: 70px;
             width: 300px;
-             bottom: 150px;    
+            bottom: 150px;
             left: 20px;
             background-color: rgba(0, 0, 0, 0.3);
             border-radius: 5px;
             color: #fff;
             font-size: 12px;
-            
+
         }
 
         .user-data {
@@ -45,8 +53,19 @@ body{
             position: absolute;
             bottom: 10px;
             left: 10px;
-
         }
+.side-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30px;
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+}
+
+
+
     </style>
 
 </head>
@@ -63,7 +82,7 @@ body{
             </div>
         </div>
 
-        <video src="assets-barby/video.mp4" autoplay controls></video>
+        <video src="assets-barby/video.mp4" ></video>
 
         <div class="side-buttons">
             <button>1</button>
